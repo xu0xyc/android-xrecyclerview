@@ -6,10 +6,15 @@ A flexible RecyclerView for android.
 
 # features
 1、下拉刷新
+<br/>
 2、添加HeaderView
+<br/>
 3、自定义数据为空时View
+<br/>
 4、添加FooterView
+<br/>
 5、上拉加载
+<br/>
 6、Item点击和长按事件回调
 
 # License
