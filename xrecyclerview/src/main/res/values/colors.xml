@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_pull_refresh_progress_color">#A5A5A5</color>
+    <color name="default_pull_refresh_status_hint_color">#A5A5A5</color>
+    <color name="default_pull_refresh_time_hint_color">#C5C5C5</color>
+
+    <color name="default_load_more_progress_color">#A5A5A5</color>
+    <color name="default_load_more_status_hint_color">#A5A5A5</color>
+</resources>

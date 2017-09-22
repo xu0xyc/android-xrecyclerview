@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/listview_header_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/listview_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:minWidth="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/refresh_status_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/listview_header_hint_normal"
+                android:textColor="#A5A5A5"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/last_refresh_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/listview_header_last_time"
+                android:textColor="#C5C5C5"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/listview_header_arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/listview_header_text"
+            android:src="@drawable/ic_pull_refresh_arrow" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/listview_header_progressbar"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/listview_header_text"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
